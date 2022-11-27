@@ -1,7 +1,7 @@
 /*
 Theme Name: Jason Stroff
 
-  1. >>> Headr Style
+  1. >>> Header Style
   2. >>> Banner Style
   3. >>> About Style
   4. >>> Skills Style
@@ -32,7 +32,7 @@ figure{ margin: 0 }
 svg,img { max-width: 100%; height: auto; }
 
 /*-----------------------------------------------------------------
-  1. >>> Headr Style
+  1. >>> Header Style
 ----------------------------------------------------------------*/
 .ds-header{ position: fixed; top: 0; width: 100%; z-index: 5; background-color: #FFF; padding: 70px 0;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease; }
 .ds-header.ds-fixed-header{ padding:20px 0;box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25); }
@@ -123,7 +123,7 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 
 
 /*-------------------------------------------------------------------------------
- Responsive XS Style @media (max-width: 767px) 
+ Responsive XS Style @media (max-width: 767px)
 -------------------------------------------------------------------------------*/
 @media (max-width: 768px) {
 	.ds-header,.ds-header.ds-fixed-header{ padding: 15px 0; }
@@ -166,6 +166,4 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 @media (min-width: 992px) and (max-width: 1199px) {
 	.ds-banner section{ padding-right: 0; }
 	.ds-work-list section{ padding-right: 30px; padding-bottom:60px; }
-
-
 }
